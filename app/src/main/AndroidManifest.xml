@@ -28,6 +28,10 @@
             android:name=".CamaraActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true">
+        </activity>
     </application>
     <!-- Permisos de Camara -->
     <uses-permission android:name="android.permission.CAMERA"/>
@@ -35,6 +39,9 @@
     <!-- Permisos de Sensores -->
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
     <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true"/>
+    <!-- Permisos de GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <!-- por si se necesita guardar la imagen -->
     <uses-permission

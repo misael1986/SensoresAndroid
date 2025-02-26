@@ -46,7 +46,7 @@
         app:srcCompat="@drawable/camara" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/gps_button"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="128dp"

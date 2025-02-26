@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         val acelerometro = findViewById<ImageButton>(R.id.accelerometro_button)
         val camara= findViewById<ImageButton>(R.id.camara_button)
-
+        val gps= findViewById<ImageButton>(R.id.gps_button)
 
         acelerometro.setOnClickListener {
             val intentAcc= Intent(this,AcelerometroActivity::class.java)
@@ -26,6 +26,12 @@ class MainActivity : AppCompatActivity() {
         camara.setOnClickListener {
             val intentCam= Intent(this,CamaraActivity::class.java)
             startActivity(intentCam)
+
+        }
+
+        gps.setOnClickListener {
+            val intentGPS =Intent(this,MapsActivity::class.java)
+            startActivity(intentGPS)
 
         }
 

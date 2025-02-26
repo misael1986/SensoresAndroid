@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-02-26T15:04:41.118170Z">
+        <DropdownSelection timestamp="2025-02-26T17:54:47.581716Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=/Users/misael.perilla/.android/avd/Moto_G20_Mio.avd" />

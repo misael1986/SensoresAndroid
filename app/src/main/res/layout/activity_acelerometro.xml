@@ -8,8 +8,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Acelerómetro"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:layout_centerInParent="true"
-        android:textColor="#000000"/>
+        android:textColor="@color/text_color"/>
 
 </RelativeLayout>

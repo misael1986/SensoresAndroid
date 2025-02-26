@@ -46,11 +46,12 @@ class AcelerometroActivity : AppCompatActivity(), SensorEventListener {
             val z = event.values[2]
 
 
-            accelerationTextView.text = "X: $x\nY: $y\nZ: $z"
+            accelerationTextView.text = "X: $x\n\nY: $y\n\nZ: $z"
         }
     }
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-        // Aquí no haremos nada (de momento) si cambia la precisión del sensor
+        // Aquí no haremos nada (de momento) cuando cambia la precisión del sensor
+        //porque cambia mucho, es muy sensible
     }
 }

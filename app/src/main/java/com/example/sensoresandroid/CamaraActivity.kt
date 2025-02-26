@@ -39,7 +39,7 @@ class CamaraActivity : AppCompatActivity() {
         }
     }
 
-    // Metodo para abrir la cámara
+    // Metodo para abrir la camara
     private fun openCamera() {
         val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         cameraActivityResultLauncher.launch(intent)

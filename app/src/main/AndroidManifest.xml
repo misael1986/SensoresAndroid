@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SensoresAndroid"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCOOXoBQxaF_TW71XnnJy1j07MYiNLi46Y"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -42,7 +46,7 @@
     <!-- Permisos de GPS -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <!-- por si se necesita guardar la imagen -->
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"

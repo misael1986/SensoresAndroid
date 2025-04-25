@@ -7,7 +7,7 @@
         android:id="@+id/accelerationTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Acelerómetro"
+        android:text="@string/aceler_metro"
         android:textSize="24sp"
         android:layout_centerInParent="true"
         android:textColor="@color/text_color"/>

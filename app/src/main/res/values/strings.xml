@@ -2,4 +2,5 @@
     <string name="app_name">SensoresAndroid</string>
     <string name="abrir_c_mara">Abrir Cámara</string>
     <string name="multi_sensores">Multi Sensores</string>
+    <string name="aceler_metro">Acelerómetro</string>
 </resources>

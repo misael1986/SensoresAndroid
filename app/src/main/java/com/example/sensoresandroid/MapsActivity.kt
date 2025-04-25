@@ -26,8 +26,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap = googleMap
 
         // Ubicación de ejemplo - poner un marcador
-        val location = LatLng(34.3853, 132.4553) // Hiroshima
-        mMap.addMarker(MarkerOptions().position(location).title("Aquí es, le dijeron a los del Enola Gay"))
+        val location = LatLng(4.6982367,-74.0915774) // Hiroshima
+        mMap.addMarker(MarkerOptions().position(location).title("UNIMINUTO MAIN"))
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 12f))
     }
 }

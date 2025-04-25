@@ -19,7 +19,7 @@ class AcelerometroActivity : AppCompatActivity(), SensorEventListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_acelerometro)
 
-       accelerationTextView = findViewById(R.id.accelerationTextView)
+        accelerationTextView = findViewById(R.id.accelerationTextView)
 
         sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
         accelerometer = sensorManager.getDefaultSensor(TYPE_ACCELEROMETER)!!
@@ -34,7 +34,6 @@ class AcelerometroActivity : AppCompatActivity(), SensorEventListener {
 
     override fun onPause() {
         super.onPause()
-
         sensorManager.unregisterListener(this)
     }
 
